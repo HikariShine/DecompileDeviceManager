@@ -1,0 +1,2 @@
+# DecompileDeviceManager
+修复DeviceManager的bug

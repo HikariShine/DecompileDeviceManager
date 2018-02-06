@@ -1,2 +1,5 @@
 # DecompileDeviceManager
 修复DeviceManager的bug
+修复DeviceManager不能远程连接硬件的bug
+根本原因是默认使用广播模式来远程连接，导致不在同一个网段的设备无法正常连接。
+通过强制使用UDP连接方式修复该bug。

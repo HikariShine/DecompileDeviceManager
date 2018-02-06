@@ -1,0 +1,56 @@
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------
+Message: 要在此字符串中进行分析，必须指定有效信息。
+Source: mscorlib
+StackTrace :   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 DeviceManagement.MyShortcutKey..ctor(String keyString) 位置 E:\keybox\Device Manager SPCNML\MyShortcutKey.cs:行号 74
+   在 DeviceManagement.Program.ReadMyShortcutKeys() 位置 E:\keybox\Device Manager SPCNML\Program.cs:行号 68
+TargetSite :System.Object Parse(System.Type, System.String, Boolean)
+-------------------------------------------------------------------------

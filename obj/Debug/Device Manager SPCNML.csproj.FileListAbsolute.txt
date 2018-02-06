@@ -1,0 +1,17 @@
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.AboutBox.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.Config.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.Key.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.LoginForm.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.MainForm.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.Message.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.MyLable.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.MyPanel.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.Properties.Resources.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.SearchForm.resources
+E:\keybox\Device Manager SPCNML\obj\Debug\Device Manager SPCNML.csproj.GenerateResource.Cache
+E:\keybox\Device Manager SPCNML\obj\Debug\Device Manager SPCNML.csproj.CoreCompileInputs.cache
+E:\keybox\Device Manager SPCNML\bin\Debug\DeviceManagement.exe
+E:\keybox\Device Manager SPCNML\bin\Debug\DeviceManagement.pdb
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.exe
+E:\keybox\Device Manager SPCNML\obj\Debug\DeviceManagement.pdb
+E:\keybox\Device Manager SPCNML\obj\Debug\Device Manager SPCNML.csprojResolveAssemblyReference.cache

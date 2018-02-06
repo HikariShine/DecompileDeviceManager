@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="POP3DomainNameDescription" xml:space="preserve">
+    <value>Set POP3 domain name</value>
+  </data>
+  <data name="POP3Port" xml:space="preserve">
+    <value>POP3 Port</value>
+  </data>
+  <data name="EthernetDescription" xml:space="preserve">
+    <value>Set whether use Ethernet</value>
+  </data>
+  <data name="AlternateDNSServer" xml:space="preserve">
+    <value>Alternate DNS Server</value>
+  </data>
+  <data name="LastMatchByteDescription" xml:space="preserve">
+    <value>Set last match byte</value>
+  </data>
+  <data name="PPPOEGateway" xml:space="preserve">
+    <value>PPPOE Gateway</value>
+  </data>
+  <data name="SerialChannel" xml:space="preserve">
+    <value>Serial Channel</value>
+  </data>
+  <data name="RetryCounterDescription" xml:space="preserve">
+    <value>Set retry counter</value>
+  </data>
+  <data name="ParityDescription" xml:space="preserve">
+    <value>Set parity</value>
+  </data>
+  <data name="IO2Description" xml:space="preserve">
+    <value>Set Input/Output 2</value>
+  </data>
+  <data name="FirstMatchByteDescription" xml:space="preserve">
+    <value>Set first match byte</value>
+  </data>
+  <data name="GPRSMaxRedialTimesDescription" xml:space="preserve">
+    <value>Get or set GPRS Max Redial Times</value>
+  </data>
+  <data name="StopBitsDescription" xml:space="preserve">
+    <value>Set stop bits</value>
+  </data>
+  <data name="IPConfigurationDescription" xml:space="preserve">
+    <value>Set IP configuration</value>
+  </data>
+  <data name="SerialMatchData3Description" xml:space="preserve">
+    <value>Set serial match data3</value>
+  </data>
+  <data name="AutoIncrementForactiveConnectDescription" xml:space="preserve">
+    <value>Set whether auto increment port number when each new connection</value>
+  </data>
+  <data name="PPPOEUserNameDescription" xml:space="preserve">
+    <value>Get or set pppoe User Name</value>
+  </data>
+  <data name="SMTPDomainNameDescription" xml:space="preserve">
+    <value>Set SMTP domain name</value>
+  </data>
+  <data name="SerialMatchData1Description" xml:space="preserve">
+    <value>Set serial match data1</value>
+  </data>
+  <data name="AuthenticationFailure" xml:space="preserve">
+    <value>Login auth failure</value>
+  </data>
+  <data name="RetryPassword" xml:space="preserve">
+    <value>RetryPassword</value>
+  </data>
+  <data name="TCPKeepActiveDescription" xml:space="preserve">
+    <value>Set TCP keep active time</value>
+  </data>
+  <data name="PreferredDNSServerDescription" xml:space="preserve">
+    <value>Set preferred DNS server</value>
+  </data>
+  <data name="SerialPortProtocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="EmailTriggerMessage" xml:space="preserve">
+    <value>Email Trigger Message</value>
+  </data>
+  <data name="UseHostlist" xml:space="preserve">
+    <value>UseHostlist</value>
+  </data>
+  <data name="GPRSSINUIMPINDescription" xml:space="preserve">
+    <value>Get or Set SIM/UIM PIN</value>
+  </data>
+  <data name="PPPOEStatus" xml:space="preserve">
+    <value>PPPOE Status</value>
+  </data>
+  <data name="TelnetConsoleDescription" xml:space="preserve">
+    <value>Set telnet console state</value>
+  </data>
+  <data name="ServiceCode" xml:space="preserve">
+    <value>Service Code</value>
+  </data>
+  <data name="AutoIP" xml:space="preserve">
+    <value>Auto IP</value>
+  </data>
+  <data name="AcceptionIncoming" xml:space="preserve">
+    <value>Acception Incoming</value>
+  </data>
+  <data name="Match2ByteSequence" xml:space="preserve">
+    <value>Match 2 Byte Sequence</value>
+  </data>
+  <data name="GPRSDescription" xml:space="preserve">
+    <value>Set whether use GPRS</value>
+  </data>
+  <data name="FlowControl" xml:space="preserve">
+    <value>Flow Control</value>
+  </data>
+  <data name="AcceptIncomingDescription" xml:space="preserve">
+    <value>Set whether accept incoming</value>
+  </data>
+  <data name="Duplex" xml:space="preserve">
+    <value>Duplex</value>
+  </data>
+  <data name="OutputAtTimeofDisconnect" xml:space="preserve">
+    <value>At Timeof Disconnect</value>
+  </data>
+  <data name="GPRSIP" xml:space="preserve">
+    <value>GPRS IP</value>
+  </data>
+  <data name="PPPGateway" xml:space="preserve">
+    <value>PPP Gateway</value>
+  </data>
+  <data name="GPRSGateway" xml:space="preserve">
+    <value>GPRS Gateway</value>
+  </data>
+  <data name="RetryPasswordDescription" xml:space="preserve">
+    <value>Input new password again</value>
+  </data>
+  <data name="ResetButtonProtect" xml:space="preserve">
+    <value>Reset Button Protect</value>
+  </data>
+  <data name="InputPriorityDescription" xml:space="preserve">
+    <value>Set priority</value>
+  </data>
+  <data name="EmailAddress3Description" xml:space="preserve">
+    <value>Set the receive email address3</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Send Address</value>
+  </data>
+  <data name="TelnetConsole" xml:space="preserve">
+    <value>Telnet Console</value>
+  </data>
+  <data name="RemotePortDescription" xml:space="preserve">
+    <value>Set remote port</value>
+  </data>
+  <data name="DCDChanged" xml:space="preserve">
+    <value>DCD Changed</value>
+  </data>
+  <data name="DHCPHostNameDescription" xml:space="preserve">
+    <value>Set DHCP host name</value>
+  </data>
+  <data name="DeviceAddressTable" xml:space="preserve">
+    <value>Device Address Table</value>
+  </data>
+  <data name="Input2" xml:space="preserve">
+    <value>I/O Input2</value>
+  </data>
+  <data name="Input1" xml:space="preserve">
+    <value>I/O Input1</value>
+  </data>
+  <data name="PPPPasswordDescription" xml:space="preserve">
+    <value>Get or set PPP Password</value>
+  </data>
+  <data name="SerialDataSizeDescription" xml:space="preserve">
+    <value>Set serial data size</value>
+  </data>
+  <data name="PPPOEDNS2" xml:space="preserve">
+    <value>PPPOE DNS2</value>
+  </data>
+  <data name="PPPOEDNS1" xml:space="preserve">
+    <value>PPPOE DNS1</value>
+  </data>
+  <data name="OnDSRDrop" xml:space="preserve">
+    <value>On DSR Drop</value>
+  </data>
+  <data name="SendTrailingBytesDescription" xml:space="preserve">
+    <value>Set send trailing bytes</value>
+  </data>
+  <data name="StartCharacterDescription" xml:space="preserve">
+    <value>Set start character</value>
+  </data>
+  <data name="GPRSWorkMode" xml:space="preserve">
+    <value>Work Mode</value>
+  </data>
+  <data name="PPPOEMaxRedialTimes" xml:space="preserve">
+    <value>Max Redial Times</value>
+  </data>
+  <data name="DHCPHostName" xml:space="preserve">
+    <value>DHCP Host Name</value>
+  </data>
+  <data name="BaudRate" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="EnableSerialTriggerInputDescription" xml:space="preserve">
+    <value>Set enable serial trigger input</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="EmailUsername" xml:space="preserve">
+    <value>Email Username</value>
+  </data>
+  <data name="EnableSerialTriggerInput" xml:space="preserve">
+    <value>Enable Serial Trigger Input</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="AutoNegotiate" xml:space="preserve">
+    <value>Auto Negotiate</value>
+  </data>
+  <data name="UDPNetSegment" xml:space="preserve">
+    <value>UDP Net Segment</value>
+  </data>
+  <data name="InputMinNotificationIntervalDescription" xml:space="preserve">
+    <value>Set min notification interval</value>
+  </data>
+  <data name="PPPIPDescription" xml:space="preserve">
+    <value>Get PPP IP</value>
+  </data>
+  <data name="SerialDataSize" xml:space="preserve">
+    <value>Serial Data Size</value>
+  </data>
+  <data name="Input1Description" xml:space="preserve">
+    <value>Set I/O input1 state</value>
+  </data>
+  <data name="LEDDescription" xml:space="preserve">
+    <value>Set whether use LED</value>
+  </data>
+  <data name="Match2ByteSequenceDescription" xml:space="preserve">
+    <value>Set whether match 2 byte sequence</value>
+  </data>
+  <data name="RetypePasswordDescription" xml:space="preserve">
+    <value>Retype the password</value>
+  </data>
+  <data name="NetProtocol" xml:space="preserve">
+    <value>Net Protocol</value>
+  </data>
+  <data name="PPPRedialInterval" xml:space="preserve">
+    <value>Redial Interval</value>
+  </data>
+  <data name="PPPOEPasswordDescription" xml:space="preserve">
+    <value>Get or set pppoe Password</value>
+  </data>
+  <data name="GPRSSINUIMPIN" xml:space="preserve">
+    <value>SIM/UIM PIN</value>
+  </data>
+  <data name="DataBits" xml:space="preserve">
+    <value>Data Bits</value>
+  </data>
+  <data name="PPPOEPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="GPRSDNS2Description" xml:space="preserve">
+    <value>Get GPRS DNS2</value>
+  </data>
+  <data name="Subnet" xml:space="preserve">
+    <value>Subnet</value>
+  </data>
+  <data name="MTUSize" xml:space="preserve">
+    <value>MTUSize</value>
+  </data>
+  <data name="PPPOEDNS2Description" xml:space="preserve">
+    <value>Get PPPOE DNS2</value>
+  </data>
+  <data name="Parity" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="AcceptionIncomingDescription" xml:space="preserve">
+    <value>Set whether acception incoming</value>
+  </data>
+  <data name="PasswordChangedDescription" xml:space="preserve">
+    <value>Set whether send mail when password changed</value>
+  </data>
+  <data name="SerialPortOptions" xml:space="preserve">
+    <value>Serial Port Options</value>
+  </data>
+  <data name="UDPUniCastLocalPort" xml:space="preserve">
+    <value>UDP UniCast Local Port</value>
+  </data>
+  <data name="EnablePacking" xml:space="preserve">
+    <value>Enable Packing</value>
+  </data>
+  <data name="RetypePassword" xml:space="preserve">
+    <value>Retype Password</value>
+  </data>
+  <data name="InputWithPassiveConnect" xml:space="preserve">
+    <value>With Passive Connect</value>
+  </data>
+  <data name="IPAddressDescription" xml:space="preserve">
+    <value>Set IP address</value>
+  </data>
+  <data name="CPUPerformanceMode" xml:space="preserve">
+    <value>CPU Performance Mode</value>
+  </data>
+  <data name="SerialMatchData2" xml:space="preserve">
+    <value>Serial Match Data2</value>
+  </data>
+  <data name="SerialMatchData3" xml:space="preserve">
+    <value>Serial Match Data3</value>
+  </data>
+  <data name="SerialMatchData1" xml:space="preserve">
+    <value>Serial Match Data1</value>
+  </data>
+  <data name="EmailTriggerSubject" xml:space="preserve">
+    <value>Email Trigger Subject</value>
+  </data>
+  <data name="PPPOEWorkModeDescription" xml:space="preserve">
+    <value>Get or set pppoe Work Mode</value>
+  </data>
+  <data name="TelnetModeDescription" xml:space="preserve">
+    <value>Set telnet mode</value>
+  </data>
+  <data name="DatagramTypeDescription" xml:space="preserve">
+    <value>Set datagram type</value>
+  </data>
+  <data name="LockMACAddress" xml:space="preserve">
+    <value>Lock MAC Address</value>
+  </data>
+  <data name="GPRSRedialInterval" xml:space="preserve">
+    <value>Redial Interval</value>
+  </data>
+  <data name="PPPOERedialInterval" xml:space="preserve">
+    <value>Redial Interval</value>
+  </data>
+  <data name="TelnetPasswordDescription" xml:space="preserve">
+    <value>Set telnet password</value>
+  </data>
+  <data name="EmailTriggerSubjectDescription" xml:space="preserve">
+    <value>Set email trigger subject</value>
+  </data>
+  <data name="EmailAddress3" xml:space="preserve">
+    <value>Receive Address3</value>
+  </data>
+  <data name="EmailAddress2" xml:space="preserve">
+    <value>Receive Address2</value>
+  </data>
+  <data name="EmailAddress1" xml:space="preserve">
+    <value>Receive Address1</value>
+  </data>
+  <data name="StopBits" xml:space="preserve">
+    <value>Stop Bits</value>
+  </data>
+  <data name="ActiveConnectDescription" xml:space="preserve">
+    <value>Set active connect type</value>
+  </data>
+  <data name="MdmEscSeqPassThruDescription" xml:space="preserve">
+    <value>Set mdm esc seq pass thru</value>
+  </data>
+  <data name="StartCharacter" xml:space="preserve">
+    <value>Start Character</value>
+  </data>
+  <data name="EnableBackupLinkDescription" xml:space="preserve">
+    <value>Set whether use backup link</value>
+  </data>
+  <data name="ResetButtonProtectDescription" xml:space="preserve">
+    <value>Set reset button protect</value>
+  </data>
+  <data name="IdleGapTime" xml:space="preserve">
+    <value>Idle Gap Time</value>
+  </data>
+  <data name="InputWithActiveConnect" xml:space="preserve">
+    <value>With Active Connect</value>
+  </data>
+  <data name="HostList" xml:space="preserve">
+    <value>Host List</value>
+  </data>
+  <data name="GPRSStatusDescription" xml:space="preserve">
+    <value>Get GPRS Status</value>
+  </data>
+  <data name="CheckEOTDescription" xml:space="preserve">
+    <value>Set whether check EOT</value>
+  </data>
+  <data name="WarmStart" xml:space="preserve">
+    <value>Warm Start</value>
+  </data>
+  <data name="PPPMaxRedialTimes" xml:space="preserve">
+    <value>Max Redial Times</value>
+  </data>
+  <data name="PPPMaxRedialTimesDescription" xml:space="preserve">
+    <value>Get or set PPP Max Redial Times</value>
+  </data>
+  <data name="GPRSStatus" xml:space="preserve">
+    <value>GPRS Status</value>
+  </data>
+  <data name="PPPPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="GPRSPPPPasswordDescription" xml:space="preserve">
+    <value>Set GPRS PPP Password</value>
+  </data>
+  <data name="MinNotificationInterval" xml:space="preserve">
+    <value>Min Notification Interval</value>
+  </data>
+  <data name="InactivityTimeout" xml:space="preserve">
+    <value>Inactivity Timeout</value>
+  </data>
+  <data name="PPPDNS2Description" xml:space="preserve">
+    <value>Get PPP DNS2</value>
+  </data>
+  <data name="UDPLocalPort" xml:space="preserve">
+    <value>UDP Local Port</value>
+  </data>
+  <data name="GPRSPPPPassword" xml:space="preserve">
+    <value>PPP Password</value>
+  </data>
+  <data name="RetryTimeout" xml:space="preserve">
+    <value>Retry Timeout</value>
+  </data>
+  <data name="GPRSPPPUserNameDescription" xml:space="preserve">
+    <value>Get or Set GPRS PPP User Name</value>
+  </data>
+  <data name="POP3DomainName" xml:space="preserve">
+    <value>POP3 Domain Name</value>
+  </data>
+  <data name="GPRSWorkModeDescription" xml:space="preserve">
+    <value>Get or set GPRS Work Mode</value>
+  </data>
+  <data name="EmailPasswordDescription" xml:space="preserve">
+    <value>Set email password</value>
+  </data>
+  <data name="IPAddressChangedDescription" xml:space="preserve">
+    <value>Set whether send mail when IP address changed</value>
+  </data>
+  <data name="InputWithPassiveConnectDescription" xml:space="preserve">
+    <value>Set whether Flush Input Buffer when passive connect</value>
+  </data>
+  <data name="HostListDescription" xml:space="preserve">
+    <value>Set host list</value>
+  </data>
+  <data name="MinNotificationIntervalDescription" xml:space="preserve">
+    <value>Set min notification interval</value>
+  </data>
+  <data name="WebConsoleDescription" xml:space="preserve">
+    <value>Set web console state</value>
+  </data>
+  <data name="RenotificationIntervalDescription" xml:space="preserve">
+    <value>Set RenotificationInterval</value>
+  </data>
+  <data name="GPRSComID" xml:space="preserve">
+    <value>GPRS Com ID</value>
+  </data>
+  <data name="GPRSDNS1Description" xml:space="preserve">
+    <value>Get GPRS DNS1</value>
+  </data>
+  <data name="SendTrailingBytes" xml:space="preserve">
+    <value>Send Trailing Bytes</value>
+  </data>
+  <data name="UDPNetSegmentDescription" xml:space="preserve">
+    <value>Set UDP net segment</value>
+  </data>
+  <data name="SerialChannelDescription" xml:space="preserve">
+    <value>Set serial channel</value>
+  </data>
+  <data name="DeviceNameDescription" xml:space="preserve">
+    <value>Set device name</value>
+  </data>
+  <data name="InputAtTimeofDisconnect" xml:space="preserve">
+    <value>At Timeof Disconnect</value>
+  </data>
+  <data name="ActiveConnect" xml:space="preserve">
+    <value>Active Connect</value>
+  </data>
+  <data name="SMTPPortDescription" xml:space="preserve">
+    <value>Set SMTP port</value>
+  </data>
+  <data name="ColdStart" xml:space="preserve">
+    <value>Cold Start</value>
+  </data>
+  <data name="DatagramType" xml:space="preserve">
+    <value>Datagram Type</value>
+  </data>
+  <data name="Ethernet" xml:space="preserve">
+    <value>Ethernet</value>
+  </data>
+  <data name="RetryCounter" xml:space="preserve">
+    <value>Retry Counter</value>
+  </data>
+  <data name="PPPComIDDescription" xml:space="preserve">
+    <value>Get or set PPP Com ID</value>
+  </data>
+  <data name="DuplexDescription" xml:space="preserve">
+    <value>Set duplex state</value>
+  </data>
+  <data name="InactivityTimeoutDescription" xml:space="preserve">
+    <value>Set inactivity timeout</value>
+  </data>
+  <data name="PPPOEMaxRedialTimesDescription" xml:space="preserve">
+    <value>Get or set pppoe Max Redial Times</value>
+  </data>
+  <data name="TCPModeDescription" xml:space="preserve">
+    <value>Set Worked Mode</value>
+  </data>
+  <data name="GPRSRedialIntervalDescription" xml:space="preserve">
+    <value>Get or set GPRS Redial Interval</value>
+  </data>
+  <data name="PPPDNS1Description" xml:space="preserve">
+    <value>Get PPP DNS1</value>
+  </data>
+  <data name="PPPRedialIntervalDescription" xml:space="preserve">
+    <value>Get or set PPP Redial Interval</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Old Password</value>
+  </data>
+  <data name="GPRSComIDDescription" xml:space="preserve">
+    <value>Get or set GPRS Com ID</value>
+  </data>
+  <data name="PreferredDNSServer" xml:space="preserve">
+    <value>Preferred DNS Server</value>
+  </data>
+  <data name="IO2" xml:space="preserve">
+    <value>Input/Output 2</value>
+  </data>
+  <data name="IO1" xml:space="preserve">
+    <value>Input/Output 1</value>
+  </data>
+  <data name="LED" xml:space="preserve">
+    <value>LED</value>
+  </data>
+  <data name="PPP" xml:space="preserve">
+    <value>PPP</value>
+  </data>
+  <data name="DefaultGateway" xml:space="preserve">
+    <value>Gateway</value>
+  </data>
+  <data name="Input2Description" xml:space="preserve">
+    <value>Set I/O input2 state</value>
+  </data>
+  <data name="HardDisconnect" xml:space="preserve">
+    <value>Hard Disconnect</value>
+  </data>
+  <data name="Bootp" xml:space="preserve">
+    <value>BOOTP</value>
+  </data>
+  <data name="PPPOEWorkMode" xml:space="preserve">
+    <value>Work Mode</value>
+  </data>
+  <data name="PPPOEStatusDescription" xml:space="preserve">
+    <value>Get PPPOE Status</value>
+  </data>
+  <data name="UDPRemotePort" xml:space="preserve">
+    <value>UDP Remote Port</value>
+  </data>
+  <data name="PPPIP" xml:space="preserve">
+    <value>PPP IP</value>
+  </data>
+  <data name="PPPoE" xml:space="preserve">
+    <value>PPPoE</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="TerminalName" xml:space="preserve">
+    <value>Terminal Name</value>
+  </data>
+  <data name="RemoteHostDescription" xml:space="preserve">
+    <value>Set remote host</value>
+  </data>
+  <data name="AutoIPDescription" xml:space="preserve">
+    <value>Set whether automatic get IP</value>
+  </data>
+  <data name="MacAddressDescription" xml:space="preserve">
+    <value>Set mac address</value>
+  </data>
+  <data name="InputPriority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="TerminalNameDescription" xml:space="preserve">
+    <value>Set Terminal Name</value>
+  </data>
+  <data name="UDPUniCastLocalPortDescription" xml:space="preserve">
+    <value>Set UDP UniCast local port</value>
+  </data>
+  <data name="TelnetMode" xml:space="preserve">
+    <value>Telnet Mode</value>
+  </data>
+  <data name="DataBitsDescription" xml:space="preserve">
+    <value>Set data bits</value>
+  </data>
+  <data name="GPRSAPN" xml:space="preserve">
+    <value>Access Point Name</value>
+  </data>
+  <data name="PPPGatewayDescription" xml:space="preserve">
+    <value>Get PPP Gateway</value>
+  </data>
+  <data name="BootpDescription" xml:space="preserve">
+    <value>Set BOOTP</value>
+  </data>
+  <data name="PPPDescription" xml:space="preserve">
+    <value>Set whether use PPP</value>
+  </data>
+  <data name="SerialPortOptionsDescription" xml:space="preserve">
+    <value>Set serial port options</value>
+  </data>
+  <data name="OldPasswordDescription" xml:space="preserve">
+    <value>Input old password</value>
+  </data>
+  <data name="PriorityDescription" xml:space="preserve">
+    <value>Set priority</value>
+  </data>
+  <data name="PPPOEDNS1Description" xml:space="preserve">
+    <value>Get PPPOE DNS1</value>
+  </data>
+  <data name="IdleGapTimeDescription" xml:space="preserve">
+    <value>Set idle gap time</value>
+  </data>
+  <data name="GPRSIDLETimeDescription" xml:space="preserve">
+    <value>Get or set GPRS Idle Time</value>
+  </data>
+  <data name="GPRSGatewayDescription" xml:space="preserve">
+    <value>Get GPRS Gateway</value>
+  </data>
+  <data name="PPPUserNameDescription" xml:space="preserve">
+    <value>Get or set PPP User Name</value>
+  </data>
+  <data name="PPPOEUserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="EmailTriggerMessageDescription" xml:space="preserve">
+    <value>Set email trigger message</value>
+  </data>
+  <data name="OnDSRDropDescription" xml:space="preserve">
+    <value>Set whether on DSR drop</value>
+  </data>
+  <data name="InputAtTimeofDisconnectDescription" xml:space="preserve">
+    <value>Set whether Flush Input Buffer at timeof disconnect</value>
+  </data>
+  <data name="AutoIncrementForactiveConnect" xml:space="preserve">
+    <value>Auto Increment For Active Connect</value>
+  </data>
+  <data name="PPPIDLETimeDescription" xml:space="preserve">
+    <value>Get or set PPP Idle Time</value>
+  </data>
+  <data name="DefaultGatewayDescription" xml:space="preserve">
+    <value>Set gateway</value>
+  </data>
+  <data name="PPPoEDescription" xml:space="preserve">
+    <value>Set whether use PPPoE</value>
+  </data>
+  <data name="TimeServerDescription" xml:space="preserve">
+    <value>Set time server IP address</value>
+  </data>
+  <data name="TelnetPassword" xml:space="preserve">
+    <value>Telnet Password</value>
+  </data>
+  <data name="HardDisconnectDescription" xml:space="preserve">
+    <value>Set whether hard disconnect</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Password Changed</value>
+  </data>
+  <data name="WebConsole" xml:space="preserve">
+    <value>Web Console</value>
+  </data>
+  <data name="IPAddressChanged" xml:space="preserve">
+    <value>IP changed</value>
+  </data>
+  <data name="DNSQueryPeriod" xml:space="preserve">
+    <value>DNS Query Period</value>
+  </data>
+  <data name="LocalDate" xml:space="preserve">
+    <value>Local Date</value>
+  </data>
+  <data name="LocalPort" xml:space="preserve">
+    <value>Local Port</value>
+  </data>
+  <data name="LocalTime" xml:space="preserve">
+    <value>Local Time</value>
+  </data>
+  <data name="UDPLocalPortDescription" xml:space="preserve">
+    <value>Set UDP local port</value>
+  </data>
+  <data name="UDPRemotePortDescription" xml:space="preserve">
+    <value>Set UDP remote port</value>
+  </data>
+  <data name="PPPWorkModeDescription" xml:space="preserve">
+    <value>Get or set PPP Work Mode</value>
+  </data>
+  <data name="IPConfiguration" xml:space="preserve">
+    <value>IP Configuration</value>
+  </data>
+  <data name="NewPasswordDescription" xml:space="preserve">
+    <value>Set new password</value>
+  </data>
+  <data name="PPPStatusDescription" xml:space="preserve">
+    <value>Get PPP Status</value>
+  </data>
+  <data name="DeviceAddressTableDescription" xml:space="preserve">
+    <value>Set device address table</value>
+  </data>
+  <data name="NewUsernameDescription" xml:space="preserve">
+    <value>Set new user name</value>
+  </data>
+  <data name="HTTPServerPortDescription" xml:space="preserve">
+    <value>Set HTTP server port</value>
+  </data>
+  <data name="OutputWithActiveConnect" xml:space="preserve">
+    <value>With Active Connect</value>
+  </data>
+  <data name="RenotificationInterval" xml:space="preserve">
+    <value>Renotification Interval</value>
+  </data>
+  <data name="GPRSIPDescription" xml:space="preserve">
+    <value>Get GPRS IP</value>
+  </data>
+  <data name="SerialMatchData2Description" xml:space="preserve">
+    <value>Set serial match data2</value>
+  </data>
+  <data name="EmailAddressDescription" xml:space="preserve">
+    <value>Set the send email address</value>
+  </data>
+  <data name="PPPOEIDLETimeDescription" xml:space="preserve">
+    <value>Get or set pppoe Idle Time</value>
+  </data>
+  <data name="MonitorModeBootup" xml:space="preserve">
+    <value>Monitor Mode Bootup</value>
+  </data>
+  <data name="OutputWithActiveConnectDescription" xml:space="preserve">
+    <value>Set whether Flush Output Buffer when active connect</value>
+  </data>
+  <data name="NewUsername" xml:space="preserve">
+    <value>New User Name</value>
+  </data>
+  <data name="OutputAtTimeofDisconnectDescription" xml:space="preserve">
+    <value>Set whether Flush Output Buffer at timeof disconnect</value>
+  </data>
+  <data name="EnableBackupLink" xml:space="preserve">
+    <value>Backup Link</value>
+  </data>
+  <data name="GPRSDNS2" xml:space="preserve">
+    <value>GPRS DNS2</value>
+  </data>
+  <data name="GPRSDNS1" xml:space="preserve">
+    <value>GPRS DNS1</value>
+  </data>
+  <data name="MdmEscSeqPassThru" xml:space="preserve">
+    <value>Mdm Esc Seq Pass Thru</value>
+  </data>
+  <data name="SpeedDescription" xml:space="preserve">
+    <value>Set network speed</value>
+  </data>
+  <data name="DHCPDescription" xml:space="preserve">
+    <value>Set DHCP state</value>
+  </data>
+  <data name="GPRSAPNDescription" xml:space="preserve">
+    <value>Get or Set Access Point Name</value>
+  </data>
+  <data name="OutputWithPassiveConnect" xml:space="preserve">
+    <value>With Passive Connect</value>
+  </data>
+  <data name="EmailConfigureManner" xml:space="preserve">
+    <value>Email Configure Manner</value>
+  </data>
+  <data name="EmailConfigureMannerDescription" xml:space="preserve">
+    <value>Set email configure manner</value>
+  </data>
+  <data name="GPRSPPPUserName" xml:space="preserve">
+    <value>PPP User Name</value>
+  </data>
+  <data name="SMTPPort" xml:space="preserve">
+    <value>SMTP Port</value>
+  </data>
+  <data name="ColdStartDescription" xml:space="preserve">
+    <value>Set whether send mail when cold start</value>
+  </data>
+  <data name="PPPOERedialIntervalDescription" xml:space="preserve">
+    <value>Get or set pppoe Redial Interval</value>
+  </data>
+  <data name="ConnectResponseDescription" xml:space="preserve">
+    <value>Set connect response</value>
+  </data>
+  <data name="EmailPassword" xml:space="preserve">
+    <value>Email Password</value>
+  </data>
+  <data name="PPPOEIPDescription" xml:space="preserve">
+    <value>Get PPPOE IP</value>
+  </data>
+  <data name="PPPComID" xml:space="preserve">
+    <value>PPP Com ID</value>
+  </data>
+  <data name="EnablePackingDescription" xml:space="preserve">
+    <value>Set whether enable packing</value>
+  </data>
+  <data name="DSRChanged" xml:space="preserve">
+    <value>DSR Changed</value>
+  </data>
+  <data name="TCPKeepActive" xml:space="preserve">
+    <value>TCP Keep Active</value>
+  </data>
+  <data name="EmailAddress1Description" xml:space="preserve">
+    <value>Set the receive email address1</value>
+  </data>
+  <data name="EmailInputTriggerMessage" xml:space="preserve">
+    <value>Email Input Trigger Message</value>
+  </data>
+  <data name="TimeServer" xml:space="preserve">
+    <value>Time Server</value>
+  </data>
+  <data name="LocalDateDescription" xml:space="preserve">
+    <value>Set local date</value>
+  </data>
+  <data name="PPPOEIDLETime" xml:space="preserve">
+    <value>Idle Time</value>
+  </data>
+  <data name="AcceptIncoming" xml:space="preserve">
+    <value>Accept Incoming</value>
+  </data>
+  <data name="MTUSizeDescription" xml:space="preserve">
+    <value>Set MTU size</value>
+  </data>
+  <data name="InputWithActiveConnectDescription" xml:space="preserve">
+    <value>Set whether Flush Input Buffer when active connect</value>
+  </data>
+  <data name="FirstMatchByte" xml:space="preserve">
+    <value>First MatchByte</value>
+  </data>
+  <data name="CheckEOT" xml:space="preserve">
+    <value>Check EOT</value>
+  </data>
+  <data name="SendFrameOnly" xml:space="preserve">
+    <value>SendFrameOnly</value>
+  </data>
+  <data name="SMTPDomainName" xml:space="preserve">
+    <value>SMTP Domain Name</value>
+  </data>
+  <data name="AlternateDNSServerDescription" xml:space="preserve">
+    <value>Set alternate DNS server</value>
+  </data>
+  <data name="PPPIDLETime" xml:space="preserve">
+    <value>Idle Time</value>
+  </data>
+  <data name="AutoNegotiateDescription" xml:space="preserve">
+    <value>Set whether auto arrange the network speed and mode</value>
+  </data>
+  <data name="OutputWithPassiveConnectDescription" xml:space="preserve">
+    <value>Set whether Flush Output Buffer when passive connect</value>
+  </data>
+  <data name="PPPUserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="POP3PortDescription" xml:space="preserve">
+    <value>Set POP3 port</value>
+  </data>
+  <data name="FIFODescription" xml:space="preserve">
+    <value>Set FIFO</value>
+  </data>
+  <data name="HTTPServerPort" xml:space="preserve">
+    <value>HTTP Server Port</value>
+  </data>
+  <data name="IPAddress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="LocalTimeDescription" xml:space="preserve">
+    <value>Set local time</value>
+  </data>
+  <data name="InputMinNotificationInterval" xml:space="preserve">
+    <value>Min Notification Interval</value>
+  </data>
+  <data name="MacAddress" xml:space="preserve">
+    <value>Mac Address</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>NewPassword</value>
+  </data>
+  <data name="PPPOEGatewayDescription" xml:space="preserve">
+    <value>Get PPPOE Gateway</value>
+  </data>
+  <data name="RetryTimeoutDescription" xml:space="preserve">
+    <value>Set retry timeout</value>
+  </data>
+  <data name="FlowControlDescription" xml:space="preserve">
+    <value>Set flow control</value>
+  </data>
+  <data name="GPRSMaxRedialTimes" xml:space="preserve">
+    <value>Max Redial Times</value>
+  </data>
+  <data name="GPRSIDLETime" xml:space="preserve">
+    <value>Idle Time</value>
+  </data>
+  <data name="EmailAddress2Description" xml:space="preserve">
+    <value>Set the receive email address2</value>
+  </data>
+  <data name="ARPcacheTimeoutDescription" xml:space="preserve">
+    <value>Set ARPcache timeout</value>
+  </data>
+  <data name="ServiceCodeDescription" xml:space="preserve">
+    <value>Get or Set Service Code</value>
+  </data>
+  <data name="EmailInputTriggerMessageDescription" xml:space="preserve">
+    <value>Set Email Input Trigger Message</value>
+  </data>
+  <data name="IO1Description" xml:space="preserve">
+    <value>Set Input/Output 1</value>
+  </data>
+  <data name="LastMatchByte" xml:space="preserve">
+    <value>Last Match Byte</value>
+  </data>
+  <data name="MonitorModeBootupDescription" xml:space="preserve">
+    <value>Set monitor mode bootup</value>
+  </data>
+  <data name="RemoteHost" xml:space="preserve">
+    <value>Remote Host</value>
+  </data>
+  <data name="RemotePort" xml:space="preserve">
+    <value>Remote Port</value>
+  </data>
+  <data name="TimeZoneDescription" xml:space="preserve">
+    <value>Set time zone</value>
+  </data>
+  <data name="CPUPerformanceModeDescription" xml:space="preserve">
+    <value>Set CPU performance mode</value>
+  </data>
+  <data name="DeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="EmailUsernameDescription" xml:space="preserve">
+    <value>Set email username</value>
+  </data>
+  <data name="UseHostlistDescription" xml:space="preserve">
+    <value>Set whether use hostlist</value>
+  </data>
+  <data name="SerialPortProtocolDescription" xml:space="preserve">
+    <value>Set serial port protocol</value>
+  </data>
+  <data name="AuthenticationFailureDescription" xml:space="preserve">
+    <value>Set whether send mail when authentication failure</value>
+  </data>
+  <data name="ARPcacheTimeout" xml:space="preserve">
+    <value>ARPcache Timeout</value>
+  </data>
+  <data name="ConnectResponse" xml:space="preserve">
+    <value>Connect Response</value>
+  </data>
+  <data name="NetProtocolDescription" xml:space="preserve">
+    <value>Set Net Protocol</value>
+  </data>
+  <data name="TCPMode" xml:space="preserve">
+    <value>Worked As</value>
+  </data>
+  <data name="LocalPortDescription" xml:space="preserve">
+    <value>Set local port</value>
+  </data>
+  <data name="BaudRateDescription" xml:space="preserve">
+    <value>Set baud rate</value>
+  </data>
+  <data name="FIFO" xml:space="preserve">
+    <value>FIFO</value>
+  </data>
+  <data name="DHCP" xml:space="preserve">
+    <value>DHCP</value>
+  </data>
+  <data name="GPRS" xml:space="preserve">
+    <value>GPRS</value>
+  </data>
+  <data name="PPPStatus" xml:space="preserve">
+    <value>PPP Status</value>
+  </data>
+  <data name="WarmStartDescription" xml:space="preserve">
+    <value>Set whether send mail when warm start</value>
+  </data>
+  <data name="SubnetDescription" xml:space="preserve">
+    <value>Set subnet</value>
+  </data>
+  <data name="PPPDNS1" xml:space="preserve">
+    <value>PPP DNS1</value>
+  </data>
+  <data name="PPPDNS2" xml:space="preserve">
+    <value>PPP DNS2</value>
+  </data>
+  <data name="PPPWorkMode" xml:space="preserve">
+    <value>Work Mode</value>
+  </data>
+  <data name="PPPOEIP" xml:space="preserve">
+    <value>PPPOE IP</value>
+  </data>
+  <data name="SendFrameOnlyDescription" xml:space="preserve">
+    <value>Set whether send frame only</value>
+  </data>
+</root>
